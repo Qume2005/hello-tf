@@ -5,27 +5,9 @@ description = ""
 authors = ["Qume <qume2005@outlook.com>"]
 readme = "README.md"
 
-[[tool.poetry.source]]
-name = "ali"
-url = "https://mirrors.aliyun.com/pypi/simple/"
-priority = "primary"
-
-
-[[tool.poetry.source]]
-name = "tencent"
-url = "https://mirrors.cloud.tencent.com/pypi/simple/"
-priority = "primary"
-
-
-[[tool.poetry.source]]
-name = "tsinghua"
-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
-priority = "default"
-
 [tool.poetry.dependencies]
 python = "^3.10"
 tensorflow = "^2.17.0"
-tensorflow-metal = "^1.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
